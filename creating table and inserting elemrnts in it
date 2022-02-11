@@ -1,0 +1,41 @@
+                                      1. create table and insert values in TABLE
+
+      CREATE TABLE EMPLOYEES(EMPLOYEE_ID INT,FIRST_NAME varchar(50),LAST_NAME varchar(50),EMAIL varchar(50));
+  
+      INSERT INTO EMPLOYEE (EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER)
+      VALUES
+             ( 100, 'Steven' ,  'King '  , 'steven.king@sqltutorial.org' ) ,     
+             ( 101,' Neena ', ' Kochhar'   , 'neena.kochhar@sqltutorial.org'  ),    
+             ( 102, 'Lex ' , ' De Haan '  , 'lex.de haan@sqltutorial.org'    ) ,   
+             ( 103, 'Alexander' , 'Hunold'   ,   ' alexander.hunold@sqltutorial.org'  ),
+             ( 104, 'Bruce'  ,  'Ernst' , 'bruce.ernst@sqltutorial.org ' ) ;     
+      
+	   
+
+      SELECT * FROM employees;
+
+
+      | employee_id | first_name  | last_name   | email                             | 
+      +-------------+-------------+-------------+-----------------------------------+
+      |         100 | Steven      | King        | steven.king@sqltutorial.org       | 
+      |         101 | Neena       | Kochhar     | neena.kochhar@sqltutorial.org     | 
+      |         102 | Lex         | De Haan     | lex.de haan@sqltutorial.org       | 
+      |         103 | Alexander   | Hunold      | alexander.hunold@sqltutorial.org  
+      |         104 | Bruce       | Ernst       | bruce.ernst@sqltutorial.org       | 
+      
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
